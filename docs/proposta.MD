@@ -1,286 +1,97 @@
-# Proposta Inicial do Jogo
+ 1. Nome provisório do jogo
 
-Este documento deve ser preenchido pelo grupo na Semana 1 do projeto.
+ANACONDA
 
-A proposta deve apresentar uma ideia simples, clara e viável para ser desenvolvida com Python e Pygame dentro do prazo disponível.
+ 2. Integrantes do grupo
 
-## 1. Nome provisório do jogo
+- Nome 1: Guilherme Miranda Nascimento
 
-Escreva aqui o nome provisório do jogo.
 
-Exemplo:
+ 3. Tipo escolhido pelo grupo:
 
-> Corrida dos Obstáculos
+Snake
 
-## 2. Integrantes do grupo
 
-Liste os integrantes do grupo.
 
-- Nome 1:
-- Nome 2:
-- Nome 3:
-- Nome 4:
+4. Descrição geral do jogo
 
-## 3. Tipo de jogo
+Controlar uma cobra que se move pela tela para comer alimentos. Cada vez que ela come um alimento, aumenta de tamanho e a pontuação cresce. O jogo termina quando a cobra bate em uma parede ou em si mesma.
 
-Indique o tipo de jogo que será desenvolvido.
+5. Objetivo do jogador
 
-Exemplos:
+Controlar uma cobra que se move pela tela, sendo assim o objetivo é comer um alimento, para aumentar de tamanho e a pontuação crescer.
 
-- jogo de desviar de obstáculos;
-- jogo de coleta de itens;
-- labirinto simples;
-- jogo de perguntas e respostas;
-- jogo de memória;
-- Pong;
-- Snake;
-- Breakout;
-- nave desviando de meteoros;
-- corrida simples com obstáculos;
-- jogo de clique rápido;
-- jogo de sobrevivência simples.
-
-Tipo escolhido pelo grupo:
-
-> Escreva aqui.
-
-## 4. Descrição geral do jogo
-
-Explique, em poucas linhas, como o jogo funcionará.
-
-Procure responder:
-
-- O que aparece na tela?
-- O que o jogador controla?
-- O que o jogador precisa fazer?
-- Quais desafios aparecem durante a partida?
-
-Descrição:
-
-> Escreva aqui.
-
-## 5. Objetivo do jogador
-
-Explique qual é o objetivo principal do jogador.
-
-Exemplos:
-
-- coletar o maior número possível de itens;
-- sobreviver pelo maior tempo possível;
-- chegar até o final do labirinto;
-- acertar alvos;
-- responder perguntas corretamente;
-- evitar obstáculos;
-- quebrar todos os blocos.
-
-Objetivo:
-
-> Escreva aqui.
-
-## 6. Regras principais
-
-Liste as principais regras do jogo.
-
-Exemplo:
-
-- O jogador começa com 3 vidas.
-- Cada moeda coletada vale 10 pontos.
-- Cada colisão com obstáculo remove 1 vida.
-- A partida termina quando as vidas chegam a zero.
-- O jogador vence se alcançar 100 pontos.
+6. Regras principais
 
 Regras do grupo:
 
-- Regra 1:
-- Regra 2:
-- Regra 3:
-- Regra 4:
-- Regra 5:
+- Regra 1: Ao iniciar a partida, o jogador controla uma cobra utilizando as setas do teclado para coletar alimentos que aparecem aleatoriamente na tela.  
+- Regra 2: Cada alimento consumido aumenta o tamanho da cobra e a pontuação do jogador.  
+- Regra 3: O jogo termina quando a cobra colide com as bordas da tela ou com o próprio corpo.
+- Regra 4: Somente uma vida por jogo.
 
-## 7. Condição de vitória
+7. Condição de vitória
 
-Explique como o jogador vence ou conclui o jogo.
+Quando o jogador alcançar o tamanho máximo possível da cobra, ocupando praticamente todos os espaços do tabuleiro sem colidir. 
 
-Exemplos:
+8. Condição de derrota ou encerramento
 
-- atingir determinada pontuação;
-- chegar ao final da fase;
-- sobreviver até o tempo acabar;
-- responder uma quantidade mínima de perguntas;
-- quebrar todos os blocos.
+O jogo termina quando a cobra colide com as bordas da tela ou com o próprio corpo.
 
-Condição de vitória:
+9. Elementos previstos no jogo:
 
-> Escreva aqui.
+> Uma cobra controlada pelas setas do teclado.
 
-## 8. Condição de derrota ou encerramento
+Obstáculos, inimigos ou desafios
 
-Explique como o jogador perde ou quando a partida termina.
+Colidir com as bordas da tela ou com o próprio corpo da cobra.
 
-Exemplos:
+Itens, alvos ou objetos de interação
 
-- perder todas as vidas;
-- acabar o tempo;
-- colidir com determinado obstáculo;
-- errar muitas perguntas;
-- deixar a bola cair, no caso de Breakout ou Pong.
+Aparecem comidas na tela que a cobra tem de comer para aumentar sua pontuação.
 
-Condição de derrota ou encerramento:
+Pontuação, vidas, tempo ou progresso
 
-> Escreva aqui.
+O jogador possui 1 vida e aumenta de pontuação de acordo com as comidas que adquire durante a jogatina.
 
-## 9. Elementos previstos no jogo
-
-Descreva os principais elementos que farão parte do jogo.
-
-## Jogador ou elemento principal
-
-Exemplo:
-
-> Um personagem controlado pelas setas do teclado.
-
-Descrição:
-
-> Escreva aqui.
-
-## Obstáculos, inimigos ou desafios
-
-Exemplo:
-
-> Obstáculos aparecem em posições aleatórias e devem ser evitados.
-
-Descrição:
-
-> Escreva aqui.
-
-## Itens, alvos ou objetos de interação
-
-Exemplo:
-
-> Moedas aparecem na tela e aumentam a pontuação quando coletadas.
-
-Descrição:
-
-> Escreva aqui.
-
-## Pontuação, vidas, tempo ou progresso
-
-Exemplo:
-
-> O jogador começa com 3 vidas e ganha 10 pontos por item coletado.
-
-Descrição:
-
-> Escreva aqui.
-
-## 10. Controles previstos
-
-Informe os comandos que serão utilizados pelo jogador.
-
-Exemplo:
+10. Controles previstos
 
 - Seta para cima: mover para cima
 - Seta para baixo: mover para baixo
 - Seta para esquerda: mover para esquerda
 - Seta para direita: mover para direita
-- Espaço: realizar ação
-- ESC: sair do jogo
 
-Controles do grupo:
+11. Organização inicial do código
 
-- Tecla/comando:
-- Tecla/comando:
-- Tecla/comando:
-
-## 11. Organização inicial do código
-
-Explique como o grupo pretende organizar o código.
-
-Exemplo:
-
-- `main.py`: inicia o jogo;
-- `src/jogo.py`: contém o loop principal;
-- `src/config.py`: guarda configurações como tamanho da tela e cores;
-- `src/funcoes.py`: contém funções auxiliares;
-- `src/dados.py`: contém funções de leitura e escrita de arquivos.
-
-Organização planejada:
-
-> Escreva aqui.
+O arquivo main.py será responsável por iniciar o jogo. 
+O arquivo src/jogo.py conterá o loop principal, controlando a execução da partida. 
+O arquivo src/cobra.py será responsável pela movimentação e crescimento da cobra. 
+O arquivo src/comida.py controlará a geração e reposicionamento dos alimentos. 
+O arquivo src/config.py armazenará configurações gerais, como tamanho da tela, cores, velocidade do jogo e pontuação. 
+O arquivo src/telas.py será utilizado para exibir as telas de menu, instruções e game over.
 
 
-## 12. Recursos externos previstos
+12. Recursos externos previstos
 
-Informe se o grupo pretende utilizar imagens, sons, fontes, tutoriais ou códigos externos.
+Tutorial usado apenas como referência.
 
-Exemplo:
 
-- imagens obtidas de banco gratuito;
-- sons gratuitos;
-- tutorial usado apenas como referência;
-- fonte personalizada.
+13. Principais dificuldades esperadas
 
-Recursos previstos:
-
-> Escreva aqui.
-
-Caso não pretenda utilizar recursos externos, escreva:
-
-> Não pretendemos utilizar recursos externos.
-
-## 13. Principais dificuldades esperadas
-
-Liste as dificuldades que o grupo acredita que poderá enfrentar.
-
-Exemplos:
-
-- movimentação do jogador;
-- colisão entre objetos;
-- controle de tempo;
-- criação do ranking;
-- organização do código;
-- uso do GitHub;
-- testes;
-- exibição de textos na tela.
 
 Dificuldades previstas:
 
-- Dificuldade 1:
-- Dificuldade 2:
-- Dificuldade 3:
+- Dificuldade 1: Colisão entre objetos;
+- Dificuldade 2: Controle de tempo
 
-## 14. Escopo mínimo para a entrega final
 
-Descreva qual será a versão mínima aceitável do jogo.
+14. Escopo mínimo para a entrega final
 
-Esta seção é importante para evitar que o grupo escolha uma ideia grande demais.
+A versão mínima do jogo terá uma cobra controlada pelo teclado, comidas aparecendo na tela, sistema de pontuação e tela e fim de jogo.
 
-Exemplo:
+15. Possíveis melhorias, caso haja tempo
 
-> A versão mínima do jogo terá um personagem controlado pelo teclado, obstáculos aparecendo na tela, sistema de vidas, sistema de pontuação e tela de fim de jogo.
 
-Escopo mínimo:
-
-> Escreva aqui.
-
-## 15. Possíveis melhorias, caso haja tempo
-
-Liste funcionalidades extras que o grupo poderá implementar se conseguir concluir o escopo mínimo.
-
-Exemplos:
-
-- tela inicial;
-- sons;
-- fases;
-- aumento de dificuldade;
-- ranking;
-- animações;
-- novos tipos de obstáculos;
-- diferentes personagens;
-- menu de pausa.
-
-Melhorias possíveis:
-
-- Melhoria 1:
-- Melhoria 2:
-- Melhoria 3:
+- Melhoria 1: Aumento de dificuldade
+- Melhoria 2: Menu de Pausa
+- Melhoria 3: Tela Inicial
